@@ -12,6 +12,8 @@ https://suraj-mahajan.github.io/AngularJqueryUiDatePicker/
     <script src="jquery-ui-1.10.0.js"></script>
     <script data-require="angular.js@1.5.x" src="angular.min.js" data-semver="1.5.11"></script>
 
+<h3>Examples</h3>
+
 <h5>Default</h5>
 &lt;input type="text" class="form-control" ng-model="fromDate" jqdatepicker /&gt;
                
