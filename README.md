@@ -3,6 +3,15 @@
 Complete Demo
 https://suraj-mahajan.github.io/AngularJqueryUiDatePicker/
 
+<h4>Header</h4>
+
+    <link href="jquery-ui.css" rel="stylesheet" />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui-1.10.0.js"></script>
+    <script data-require="angular.js@1.5.x" src="angular.min.js" data-semver="1.5.11"></script>
+
 <h5>Default</h5>
 <code>
                     &lt;input type="text" class="form-control" ng-model="fromDate" <u>jqdatepicker</u> /&gt;
