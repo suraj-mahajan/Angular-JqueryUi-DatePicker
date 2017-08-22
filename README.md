@@ -3,7 +3,7 @@
 Complete Demo
 https://suraj-mahajan.github.io/AngularJqueryUiDatePicker/
 
-<h4>Header</h4>
+<h3>Header</h3>
 
     <link href="jquery-ui.css" rel="stylesheet" />
     <link href="bootstrap.min.css" rel="stylesheet" />
