@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui-1.10.0.js"></script>
+    <link href="jquery-ui.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <script data-require="angular.js@1.5.x" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js" data-semver="1.5.11"></script>
+    <script src="app.js"></script>
+    <script src="globalDirectivs.js"></script>
+
+    <style>
+        .ui-datepicker .ui-datepicker-header {
+            color: black;
+        }
+    </style>
+</head>
+<body ng-controller="MainCtrl" class="container">
+
+    <table class="table table-bordered">
+        <tr>
+            <td>
+                <h5>Default</h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate1" jqdatepicker />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate" <u>jqdatepicker</u> /&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h5>With Custom Date Format</h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate2" jqdatepicker  format="yy.dd.mm" />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate2" jqdatepicker  <u>format="yy.dd.mm"</u> /&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h5>Change Year & Month</h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate3" jqdatepicker changeyear="false" changemonth="false" />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker <u>changeyear="false"</u> <u>changemonth="false"</u> /&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Min Date</h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate4" jqdatepicker mindate="15d" />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker <u>mindate="15d"</u>  /&gt;
+                </code>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h5>Max Date</h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate4" jqdatepicker maxdate="2d" />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker <u>maxdate="2d"</u>  /&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h5>Default Date</h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate5" jqdatepicker defaultdate="+7m" />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate5" jqdatepicker <u>defaultdate="+7m"</u>  /&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h5>First Day </h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate6" jqdatepicker firstday="2" />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate" jqdatepicker <u>firstday="2"</u> /&gt;
+                </code>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h5>gotoCurrent </h5>
+            </td>
+            <td>
+                <input type="text" class="form-control" ng-model="fromDate7" jqdatepicker gotoCurrent ="true" />
+            </td>
+            <td>
+                <code>
+                    &lt;input type="text" class="form-control" ng-model="fromDate6" jqdatepicker <u>gotoCurrent ="true"</u> /&gt;
+                </code>
+            </td>
+        </tr>
+       
+
+    </table>
+
+
+
+</body>
+
+</html>
