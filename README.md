@@ -1,5 +1,5 @@
 
-
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Complete Demo
 https://suraj-mahajan.github.io/AngularJqueryUiDatePicker/
 
@@ -13,36 +13,27 @@ https://suraj-mahajan.github.io/AngularJqueryUiDatePicker/
     <script data-require="angular.js@1.5.x" src="angular.min.js" data-semver="1.5.11"></script>
 
 <h5>Default</h5>
-<code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate" <u>jqdatepicker</u> /&gt;
-                </code>
+&lt;input type="text" class="form-control" ng-model="fromDate" **jqdatepicker** /&gt;
+               
 <h5>With Custom Date Format</h5>
-<code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate2" jqdatepicker  <u>format="yy.dd.mm"</u> /&gt;
-                </code>
-                <h5>Change Year & Month</h5>
-                <code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker <u>changeyear="false"</u> <u>changemonth="false"</u> /&gt;
-                </code>
-                <h5>Min Date</h5>
-                <code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker <u>mindate="15d"</u>  /&gt;
-                </code>
-                <h5>Max Date</h5>
-                <code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker <u>maxdate="2d"</u>  /&gt;
-                </code>
-                <h5>Default Date</h5>
-                 <code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate5" jqdatepicker <u>defaultdate="+7m"</u>  /&gt;
-                </code>
-                <h5>First Day </h5>
-                <code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate" jqdatepicker <u>firstday="2"</u> /&gt;
-                </code>
-                <h5>gotoCurrent </h5>
-                 <code>
-                    &lt;input type="text" class="form-control" ng-model="fromDate6" jqdatepicker <u>gotoCurrent ="true"</u> /&gt;
-                </code>
+&lt;input type="text" class="form-control" ng-model="fromDate2" jqdatepicker  **format="yy.dd.mm"** /&gt;
+ 
+<h5>Change Year & Month</h5>
+&lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker **changeyear="false" changemonth="false"** /&gt;
+ 
+<h5>Min Date</h5>
+&lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker **mindate="15d"**  /&gt;
+
+<h5>Max Date</h5>
+&lt;input type="text" class="form-control" ng-model="fromDate1" jqdatepicker **maxdate="2d"**  /&gt;
+
+<h5>Default Date</h5>
+&lt;input type="text" class="form-control" ng-model="fromDate5" jqdatepicker **defaultdate="+7m"**  /&gt;
+
+<h5>First Day </h5>
+&lt;input type="text" class="form-control" ng-model="fromDate" jqdatepicker **firstday="2"** /&gt;
+
+<h5>gotoCurrent </h5>
+&lt;input type="text" class="form-control" ng-model="fromDate6" jqdatepicker **gotoCurrent ="true"** /&gt;
                 
                 
